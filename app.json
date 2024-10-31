@@ -1,0 +1,22 @@
+{
+  "name": "fitcam",
+  "displayName": "fitcam",
+  "expo": {
+    "name": "fitcam",
+    "slug": "fitcam",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow FitCam to access your camera",
+          "microphonePermission": "Allow FitCam to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ]
+  }
+}

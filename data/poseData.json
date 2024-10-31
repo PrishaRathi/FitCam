@@ -1,0 +1,446 @@
+{
+  "tricep_presses_left": {
+    "muscles": ["Triceps"],
+    "next": ["Leg", "Back"],
+    "type": "left_arm",
+    "threshold": 112.5,
+    "compare": "less",
+    "bodyParts": [
+      "left_shoulder",
+      "left_elbow",
+      "left_wrist"
+    ],
+    "mistakeBodyParts": [
+      "left_elbow",
+      "left_shoulder",
+      "left_hip"
+    ],
+    "resetMinAngle": 40,
+    "resetMaxAngle": 50,
+    "endMinAngle": 160,
+    "endMaxAngle": 190,
+    "mistakeMinAngle": 135,
+    "mistakeMaxAngle": 180,
+    "mistakeTips": [
+      "Your shoulders are too far forward",
+      "Your elbows are too far back"
+    ],
+    "adviceTips": [
+      "Keep extending your arm until it locks out"
+    ]
+  },
+  "tricep_presses_right": {
+    "type": "right_arm",
+    "muscles": ["Triceps"],
+    "next": ["Leg", "Back"],
+    "threshold": 112.5,
+    "compare": "less",
+    "bodyParts": [
+      "right_shoulder",
+      "right_elbow",
+      "right_wrist"
+    ],
+    "mistakeBodyParts": [
+      "right_elbow",
+      "right_shoulder",
+      "right_hip"
+    ],
+    "resetMinAngle": 40,
+    "resetMaxAngle": 50,
+    "endMinAngle": 160,
+    "endMaxAngle": 190,
+    "mistakeMinAngle": 135,
+    "mistakeMaxAngle": 180,
+    "mistakeTips": [
+      "Your shoulders are too far forward",
+      "Your elbows are too far back"
+    ],
+    "adviceTips": [
+      "Keep extending your arm until it locks out"
+    ]
+  },
+  "seated_leg_extension_left": {
+    "type": "left_leg",
+    "muscles": ["Quadriceps"],
+    "next": ["Arm", "Back", "Ab"],
+    "threshold": 112.5,
+    "compare": "less",
+    "bodyParts": [
+      "left_hip",
+      "left_knee",
+      "left_ankle"
+    ],
+    "mistakeBodyParts": [
+      "left_shoulder",
+      "left_hip",
+      "left_knee"
+    ],
+    "resetMinAngle": 70,
+    "resetMaxAngle": 100,
+    "endMinAngle": 160,
+    "endMaxAngle": 185,
+    "mistakeMinAngle": 80,
+    "mistakeMaxAngle": 120,
+    "mistakeTips": [
+      "Your back is bent too far forward",
+      "Your back is bent too far back"
+    ],
+    "adviceTips": [
+      "Keep extending your leg"
+    ]
+  },
+  "seated_leg_extension_right": {
+    "type": "right_leg",
+    "muscles": ["Quadriceps"],
+    "next": ["Arm", "Back", "Ab"],
+    "threshold": 112.5,
+    "compare": "less",
+    "bodyParts": [
+      "right_hip",
+      "right_knee",
+      "right_ankle"
+    ],
+    "mistakeBodyParts": [
+      "right_shoulder",
+      "right_hip",
+      "right_knee"
+    ],
+    "resetMinAngle": 70,
+    "resetMaxAngle": 100,
+    "endMinAngle": 160,
+    "endMaxAngle": 185,
+    "mistakeMinAngle": 80,
+    "mistakeMaxAngle": 120,
+    "mistakeTips": [
+      "Your back is bent too far forward",
+      "Your back is bent too far back"
+    ],
+    "adviceTips": [
+      "Keep extending your leg"
+    ]
+  },
+  "leg_lift_left": {
+    "type": "left_leg",
+    "muscles": ["Abdominal"],
+    "next": ["Arm", "Back"],
+    "threshold": 170,
+    "compare": "more",
+    "bodyParts": [
+      "left_shoulder",
+      "left_hip",
+      "left_ankle"
+    ],
+    "mistakeBodyParts": [
+      "left_hip",
+      "left_knee",
+      "left_ankle"
+    ],
+    "resetMinAngle": 180,
+    "resetMaxAngle": 190,
+    "endMinAngle": 90,
+    "endMaxAngle": 160,
+    "mistakeMinAngle": 150,
+    "mistakeMaxAngle": 190,
+    "mistakeTips": [
+      "Your knees are bending too much"
+    ],
+    "adviceTips": [
+      "Keep extending your leg"
+    ]
+  },
+  "leg_lift_right": {
+    "type": "right_leg",
+    "muscles": ["Abdominal"],
+    "next": ["Arm", "Back"],
+    "threshold": 112.5,
+    "compare": "more",
+    "bodyParts": [
+      "right_shoulder",
+      "right_hip",
+      "right_ankle"
+    ],
+    "mistakeBodyParts": [
+      "right_hip",
+      "right_knee",
+      "right_ankle"
+    ],
+    "resetMinAngle": 180,
+    "resetMaxAngle": 190,
+    "endMinAngle": 90,
+    "endMaxAngle": 160,
+    "mistakeMinAngle": 150,
+    "mistakeMaxAngle": 190,
+    "mistakeTips": [
+      "Your knees are bending too much"
+    ],
+    "adviceTips": [
+      "Keep extending your leg"
+    ]
+  },
+  "good_morning": {
+    "type": "side",
+    "muscles": ["Lower Back"],
+    "next": ["Arm", "Leg"],
+    "threshold": 170,
+    "compare": "more",
+    "bodyParts": [
+      "left_shoulder",
+      "left_hip",
+      "left_knee"
+    ],
+    "mistakeBodyParts": [
+      "left_hip",
+      "left_knee",
+      "left_ankle"
+    ],
+    "resetMinAngle": 170,
+    "resetMaxAngle": 185,
+    "endMinAngle": 80,
+    "endMaxAngle": 100,
+    "mistakeMinAngle": 140,
+    "mistakeMaxAngle": 190,
+    "mistakeTips": [
+      "Your knees are bending too much"
+    ],
+    "adviceTips": [
+      "Keep bending your back down further"
+    ]
+  },
+  "hyperextensions": {
+    "type": "side",
+    "muscles": ["Lower Back"],
+    "next": ["Arm", "Leg"],
+    "threshold": 112.5,
+    "compare": "more",
+    "bodyParts": [
+      "left_shoulder",
+      "left_hip",
+      "left_knee"
+    ],
+    "mistakeBodyParts": [
+      "left_hip",
+      "left_knee",
+      "left_ankle"
+    ],
+    "resetMinAngle": 170,
+    "resetMaxAngle": 185,
+    "endMinAngle": 50,
+    "endMaxAngle": 100,
+    "mistakeMinAngle": 150,
+    "mistakeMaxAngle": 190,
+    "mistakeTips": [
+      "Your knees are bending too much"
+    ],
+    "adviceTips": [
+      "Keep bending your back down further",
+      "Keep this position, don't lift up any higher"
+    ]
+  },
+  "deadlifts": {
+    "type": "left_leg",
+    "muscles": ["Lower Back", "Upper Back", "Trapezius", "Legs"],
+    "next": ["Arm"],
+    "threshold": 140,
+    "compare": "less",
+    "bodyParts": [
+      "left_hip",
+      "left_knee",
+      "left_ankle"
+    ],
+    "mistakeBodyParts": [
+      "left_hip",
+      "left_knee",
+      "left_ankle"
+    ],
+    "resetMinAngle": 120,
+    "resetMaxAngle": 145,
+    "endMinAngle": 170,
+    "endMaxAngle": 185,
+    "mistakeMinAngle": 110,
+    "mistakeMaxAngle": 190,
+    "mistakeTips": [
+      "You're crouching down too low"
+    ],
+    "adviceTips": [
+      "Keep your back straight as you lift up"
+    ]
+  },
+  "seated_dumbbell_curl_left" : {
+    "type": "left_arm",
+    "muscles": ["Biceps"],
+    "next": ["Back", "Leg"],
+    "threshold": 170,
+    "compare": "more",
+    "bodyParts": [
+      "left_shoulder",
+      "left_elbow",
+      "left_wrist"
+    ],
+    "mistakeBodyParts": [
+      "left_shoulder",
+      "left_hip",
+      "left_knee"
+    ],
+    "resetMinAngle": 175,
+    "resetMaxAngle": 185,
+    "endMinAngle": 0,
+    "endMaxAngle": 45,
+    "mistakeMinAngle": 85,
+    "mistakeMaxAngle": 125,
+    "mistakeTips": [
+      "Your back is bent too far forward",
+      "Your back is bent too far back"
+    ],
+    "adviceTips": [
+      "Bring your forearm as close to your bicep as possible"
+    ]
+  },
+  "seated_dumbbell_curl_right": {
+    "type": "right_arm",
+    "muscles": ["Biceps"],
+    "next": ["Back", "Leg"],
+    "threshold": 170,
+    "compare": "more",
+    "bodyParts": [
+      "right_shoulder",
+      "right_elbow",
+      "right_wrist"
+    ],
+    "mistakeBodyParts": [
+      "right_shoulder",
+      "right_hip",
+      "right_knee"
+    ],
+    "resetMinAngle": 175,
+    "resetMaxAngle": 185,
+    "endMinAngle": 0,
+    "endMaxAngle": 45,
+    "mistakeMinAngle": 85,
+    "mistakeMaxAngle": 125,
+    "mistakeTips": [
+      "Your back is bent too far forward",
+      "Your back is bent too far back"
+    ],
+    "adviceTips": [
+      "Bring your forearm as close to your bicep as possible"
+    ]
+  },
+  "dumbbell_kickback_left" : {
+    "type": "left_arm",
+    "muscles": ["Triceps"],
+    "next": ["Back", "Leg"],
+    "threshold": 110,
+    "compare": "less",
+    "bodyParts": [
+      "left_shoulder",
+      "left_elbow",
+      "left_wrist"
+    ],
+    "mistakeBodyParts": [
+      "left_elbow",
+      "left_shoulder",
+      "left_hip"
+    ],
+    "resetMinAngle": 75,
+    "resetMaxAngle": 95,
+    "endMinAngle": 170,
+    "endMaxAngle": 180,
+    "mistakeMinAngle": 0,
+    "mistakeMaxAngle": 70,
+    "mistakeTips": [
+      "",
+      "Your arm is extended too far back"
+    ],
+    "adviceTips": [
+      "Keep extending your arm until it locks out"
+    ]
+  },
+  "dumbbell_kickback_right": {
+    "type": "right_arm",
+    "muscles": ["Triceps"],
+    "next": ["Back", "Leg"],
+    "threshold": 110,
+    "compare": "less",
+    "bodyParts": [
+      "right_shoulder",
+      "right_elbow",
+      "right_wrist"
+    ],
+    "mistakeBodyParts": [
+      "right_elbow",
+      "right_shoulder",
+      "right_hip"
+    ],
+    "resetMinAngle": 75,
+    "resetMaxAngle": 95,
+    "endMinAngle": 170,
+    "endMaxAngle": 180,
+    "mistakeMinAngle": 0,
+    "mistakeMaxAngle": 70,
+    "mistakeTips": [
+      "",
+      "Your arm is extended too far back"
+    ],
+    "adviceTips": [
+      "Keep extending your arm until it locks out"
+    ]
+  },
+  "sit_ups": {
+    "type": "side",
+    "muscles": ["Abdominal"],
+    "next": ["Back", "Arm"],
+    "threshold": 170,
+    "compare": "more",
+    "bodyParts": [
+      "left_shoulder",
+      "left_hip",
+      "left_knee"
+    ],
+    "mistakeBodyParts": [
+      "left_ear",
+      "left_shoulder",
+      "left_hip"
+    ],
+    "resetMinAngle": 185,
+    "resetMaxAngle": 175,
+    "endMinAngle": 45,
+    "endMaxAngle": 100,
+    "mistakeMinAngle": 130,
+    "mistakeMaxAngle": 0,
+    "mistakeTips": [
+      "Your head is not aligned with your shoulders"
+    ],
+    "adviceTips": [
+      "Keep going"
+    ]
+  },
+  "squats": {
+    "type": "left_leg",
+    "muscles": ["Quadriceps", "Glutes"],
+    "next": ["Back", "Arm"],
+    "threshold": 140,
+    "compare": "more",
+    "bodyParts": [
+      "left_hip",
+      "left_knee",
+      "left_ankle"
+    ],
+    "mistakeBodyParts": [
+      "left_shoulder",
+      "left_hip",
+      "left_knee"
+    ],
+    "resetMinAngle": 170,
+    "resetMaxAngle": 185,
+    "endMinAngle": 0,
+    "endMaxAngle": 100,
+    "mistakeMinAngle": 80,
+    "mistakeMaxAngle": 360,
+    "mistakeTips": [
+      "Your back is bent too far forward"
+    ],
+    "adviceTips": [
+      "Go lower as you keep your knees bent"
+    ]
+  }
+}
